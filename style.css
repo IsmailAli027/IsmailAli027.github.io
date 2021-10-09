@@ -1,5 +1,7 @@
 body {
-  background-color: #033;
+  background-color: background-color: #02271a;
+opacity: 0.9;
+background: repeating-linear-gradient( 45deg, #033, #033 3.5px, #02271a 3.5px, #02271a 17.5px );
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 20%
@@ -62,5 +64,7 @@ p {
 
 
  
+
+
 
 
