@@ -5,22 +5,62 @@ body {
   margin: 10% 20%
 }
 
-.exp-header{
+.exp-header {
   text-align: center;
  text-transform: uppercase;
-  border-top: 1px solid #000600;
-  border-bottom: 1px solid #000600;
+  border-top: #000600;
+  border-bottom: #000600;
   background-color: rgba(0,0,0,.65);
-  margin-left: 
+  margin-left:;
+  text-decoration: underline 2px
 }
 
 img {
   width: 100%;
-  float: 
+  border-radius: 50%;
+  height: auto;
+  opacity: 0.9;
+  filter: grayscale(70%);
 }
 
-div {
-  border:1px solid black;
-  margin: 
-    
+img:hover {
+  transform: scale(-1);
 }
+ 
+  
+
+.header {
+  background-color: black;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: serif;
+  border-top: #000600;
+  border-bottom: #000600;
+  text-shadow: 3px 3px maroon;
+} 
+
+h4 {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: rgba(0,0,0,.65);
+  text-align: center;
+}
+
+h5 {
+  text-decoration: overline;
+}
+
+h6 {
+  text-decoration: underline .05px 
+}
+
+p {
+  font-family: "Lucinda Handwriting", Cursive;
+  text-align: center;
+}
+
+
+ 
+
+
